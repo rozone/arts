@@ -182,3 +182,28 @@ contact@metroverse.com(官方邮件)
 思路成熟后，我会通过发邮件的方式：
 
 
+
+```mermaid
+gantt
+    title       执行计划
+    dateFormat  YYYY/MM/MD
+
+    section IP构建
+    创始人/平台IP构建  : ip, 2022-07-15, 60d
+    meme制造：出书、采访、公益、事件营销等 : stories, after ip, 300d
+    社群运营  : op, after ip, 300d
+
+    section 交易所
+    筹建:  req, 2022-07-15, 15d
+    开发  : dev, after req, 60d
+    试运行  : beta, after dev, 15d
+    运营/迭代  : abc, after beta, 240d
+    自研公链  : x, after abc, 30d
+
+    section NFT工厂
+    构建NFT工厂模型 : nft0, 2022-07-15, 60d
+    NFT策划机制 : chem, after nft0, 60day
+    交易所接入以太坊API: deploy, after chem, 15day
+    NFT矩阵构建&部署: deploy, after chem, 240day
+
+```
